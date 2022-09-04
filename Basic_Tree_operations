@@ -1,0 +1,25 @@
+#include<iostream.h>
+#include<stdio.h>
+
+struct Node
+{
+      int data;
+      Node* left;
+      Node* right;
+
+
+};
+
+
+void Preorder(struct Node* root)
+{
+  if(roo==NULL)
+  {
+    return;
+  }
+  
+  printf("root data:&d",root->data);
+  Preorder(root->left);
+  Preorder(root->right);
+  
+}
